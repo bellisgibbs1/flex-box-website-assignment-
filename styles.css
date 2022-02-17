@@ -46,7 +46,7 @@ figcaption {
 /** Container styles to keep content from becoming too wide or coming too close to
 * mobile edge */
 .container {
-    width    : 100%;
+    width    : 50%;
     max-width: 800px;
     padding  : 10px;
     margin   : 0 auto;
@@ -115,12 +115,13 @@ figcaption {
 
     .collage{
         display: flex;
-        justify-content: space-between;
+        justify-content:space-evenly;
 
     }
     .collage > div{
         flex-basis: 30%;
     }
+    
 }
 /*********************************************************************
   YOUR DESKTOP-ONLY STYLES GO HERE
