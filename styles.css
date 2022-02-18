@@ -115,10 +115,18 @@ figcaption {
 
     .collage{
         display: flex;
-        justify-content:space-evenly;
+        justify-content:space-around;
 
     }
     .collage > div{
+        flex-basis: 45%;
+    }
+
+    .collage1{
+        display: flex;
+        justify-content: space-around;
+    }
+    .collage1 > div{
         flex-basis: 30%;
     }
     
